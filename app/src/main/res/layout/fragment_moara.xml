@@ -21,7 +21,7 @@
 
             <TextView
                 style="@style/ArticleText"
-                android:text="@string/article_alexandru_lapusneanu"
+                android:text="@string/article_moara_cu_noroc"
                 />
         </LinearLayout>
     </ScrollView>
