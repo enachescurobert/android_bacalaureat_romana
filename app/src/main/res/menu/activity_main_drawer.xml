@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/alexandru_lapusneanu"
+            android:icon="@drawable/crown"
+            android:title="@string/menu_alexandru_lapusneanu" />
+        <item
+            android:id="@+id/baltagul"
+            android:icon="@drawable/axe"
+            android:title="@string/menu_baltagul" />
+        <item
+            android:id="@+id/enigma_otiliei"
+            android:icon="@drawable/woman"
+            android:title="@string/menu_enigma_otiliei" />
+        <item
+            android:id="@+id/harap_alb"
+            android:icon="@drawable/sad_king"
+            android:title="@string/menu_harap_alb" />
+        <item
+            android:id="@+id/ion"
+            android:icon="@drawable/field2"
+            android:title="@string/menu_ion" />
+        <item
+            android:id="@+id/moara_cu_noroc"
+            android:icon="@drawable/clover"
+            android:title="@string/menu_moara_cu_noroc" />
+        <item
+            android:id="@+id/la_tiganci"
+            android:icon="@drawable/ghost"
+            android:title="@string/menu_la_tiganci" />
+        <item
+            android:id="@+id/ultima_noapte"
+            android:icon="@drawable/war"
+            android:title="@string/menu_ultima_noapte" />
+    </group>
+
+    <item android:title="Ajuta-ți prietenii!">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>

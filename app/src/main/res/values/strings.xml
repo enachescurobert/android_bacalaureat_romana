@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Comentarii Bacalaureat</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Comentarii Bacalaureat</string>
+    <string name="nav_header_subtitle">Pentru elevii de nota 10</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Acasa</string>
+    <string name="menu_moara_cu_noroc">Moara cu noroc</string>
+    <string name="menu_baltagul">Baltagul</string>
+    <string name="menu_ion">Ion</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Trimite</string>
+    <string name="menu_la_tiganci">La Tiganci</string>
+    <string name="menu_harap_alb">Harap Alb</string>
+    <string name="menu_alexandru_lapusneanu">Alexandru Lapusneanu</string>
+    <string name="menu_enigma_otiliei">Enigma Otiliei</string>
+    <string name="menu_ultima_noapte">Ultima Noapte De Dragoste, Intaia Noapte De Razboi</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="home">
+\t\t\t Scopul acestei aplicații este de a ajuta elevii cu cele mai bune comentarii pentru proba scrisa de la Bacalaureat.
+\n\n
+\t\t\t În clipa de față, comentariile disponibile sunt pentru:
+\n
+\t\t\t\t\t - <i>"Alexandru Lăpușneanu"</i> - de Costache Negruzzi
+        \n
+\t\t\t\t\t - <i>"Baltagul"</i> - de Mihail Sadoveanu
+        \n
+\t\t\t\t\t - <i>"Enigma Otiliei"</i> - de George Călinescu
+        \n
+\t\t\t\t\t - <i>"Harap Alb"</i> - de Ion Creangă
+        \n
+\t\t\t\t\t - <i>"Ion"</i> - de Liviu Rebreanu
+        \n
+\t\t\t\t\t - <i>"Moara Cu Noroc"</i> - de Ioan Slavici
+        \n
+\t\t\t\t\t - <i>"La Țigănci"</i> - de Mircea Eliade
+        \n
+\t\t\t\t\t - <i>"Ultima Noapte De Dragoste, Întâia Noapte De Război"</i> - de Camil Petrescu
+        \n\n
+\t\t\t Vom adauga noi comentarii în versiunile următoare ale aplicației.
+        \n
+\t\t\t În cazul în care doriți urgent o schimbare, ne puteți da mesaj apăsând pe butonul verde.
+
+    </string>
+
+    <string name="article_alexandru_lapusneanu">
+\t\t\t Publicist, traducator, poet, dramaturg, prozator, filolog, creatorul nuvelei istorice romanesti, primul scriitor modern din Moldova, Costache Negruzzi este un deschizator de drumuri in literatura romana.
+\n
+\t\t\t Capodopera a prozei noastre, nuvela "Alexandru Lapusneanul" a aparut in 1840, in primul numar al revistei Dacia literara, confirmand dezideratul exprimat de Mihail Kogalniceanu in articolul-program.
+\n
+\t\t\t Nuvela prezinta un episod din istoria Moldovei, in fragmente simetrice, cu o gradatie dramatica si de o maxima concentrare. - cei cinci ani ai celei de-a doua domnii a lui Alexandru Lapusneanul (1564-1569).
+\n
+\t\t\t Punctul de plecare al nuvelei se afla in "Letopisetul" lui Grigore Ureche, fara nici o intentie insa de "reconstituire" istorica. Limitele acesteia sunt ale verosimilului artistic si mai putin ale adevarului istoric.
+\n
+\t\t\t Actiunile lui Lapusneanu sunt puse in slujba mentinerii si cresterii autoritatii domnitorului, in interesul tarii, impotriva marii boierimi feudale framantate de intrigi si de lupte pentru domnie.
+\n
+\t\t\t In componenta nuvelei intra patru capitole, fiecare avand cate un motto semnificativ si rezumativ, totodata. Astfel, "Daca voi nu ma vreti, eu va vreu&#8230;", se refera la conflictul anuntat inc din expozitiune, dintre Lapusneanu si boierii sustinatori ai lui Stefan Tomsa. Cel de-al doilea capitol, al carui motto este: "Ai sa dai sama, Doamna!", starneste interventia damnei Ruxandra in a tempera conflictul generator de ura si razbunare. "Capul lui Motoc vrem&#8230;" reprezinta punctul culminant al nuvelei, gradat in trei tablouri: cuvantarea ipocrita a domnitorului in biserica din Suceava, ospatul de la palatul domnesc si uciderea celor 47 de boieri, dupa care urmeaza "dreptatea" facuta multimii prin sacrificarea lui Motoc. Ultimul capitol, "De ma voi scula, pre multi am sa popesc si eu" este al finalului tragediei si al deznodamantului, totodata, prin moartea lui Lapusneanu otravit de boierii Spancioc si Stroici cu complicitatea domnitei Ruxandra si a mitropolitului Teofan.
+\n
+\t\t\t Subiectul urmeaza o desfasurare ascendenta si o clasica evolutie a momentelor.
+\n
+\t\t\t In centrul nuvelei, Negruzzi il aseaza pe Domnul Moldovei, toate celelalte personaje sau fapte fiind orientate spre reliefarea personalitatii acestuia.
+\n
+\t\t\t Apreciat constant drept un erou romantic, prin calitati de exceptie si defecte extreme, construit pe baza antitezei romantice, Alexandru Lapusneanul este un personaj complex, bine individualizat. Individualizarea si definirea caracterologica a lui Lapusneanu atinge o expresivitate nemaiintalnita pana la 1840 si inca neegalata in nuvela istorica romaneasca ulterioara.
+\n
+\t\t\t Negruzzi pune oamenii sa vorbeasca si sa se miste, povesteste unele evenimente, descrie cateva tablouri, si formuleaza, din cand in cand, dar in termeni succinti si cu multa rezerva, judecati de valoare asupra personajelor sale si a situatiilor in care se gasesc. Printre toate aceste mijloace, spre deosebire de cronica lui Ureche, scena dramatica dialogata domina ansamblul compozitiei. Povestirea nu intervine decat pentru a infatisa evenimente care pregatesc si explica scenele de dialog.
+\n
+\t\t\t Negruzzi insoteste replicile dialogului de observatii asupra fizionomiei personajului, care reflecta trairile sale interioare. ("&#8230;a carui ochi scanteiara ca un fulger"). Interogatiile si exclamatiile Lapusneanului, retezarea taioasa a vorbelor interlocutorului sau, succesiunea rapida a raspunsurilor, exprima ritmul starii sale sufletesti. Vorbirea lui devine dramatica, traita la cote inalte ale simtirii omenesti.
+\n
+\t\t\t Cu o intuitie psihologica notabila, Negruzzi isi lasa personajul sa se delantuie intr-o furie si o manie galgaitoare, dezvaluin paroxismul momentului trait prin amanunte fizionomice: "Radea; muschii i se suceau in rasul acesta, si ochii lui hojma clipeau".
+\n
+\t\t\t Lapusneanul dovedeste o cunoastere sigura asupra oamenilor, dar si o abilitate politica remarcabila, crutandu-l pe Motoc pentru ca ii este "trebuitor" ca sa se mai usureze de "blestemarile norodului". Scena aceasta adauga alte trasaturi portretului domnitorului: luciditate, duritate si ironia.
+\n
+\t\t\t In deschiderea celui de-al treilea capitol (punctul culminant al nuvelei) cititorul este prevenit despre dramatica derulare a faptelor ce vor urma: "impotriva obiceiului sau, Lapusneanul, in ziua aceea, era imbracat&#8230;". Domnitorul, ca un mare actor, isi regizeaza, astfel, scena, urmarind cu atentie reactiile celorlalti. Stapan al artei disimularii, el dovedeste inteligenta, tact, dar mai ales un echilibru interior desavarsit.
+\n
+\t\t\t Lupta dintre boieri si slugile inarmate ale Lapusneanului alcatuieste o secventa scurta, in care miscarea se epuizeaza fara comentarii, vazuta de la distanta, intr-un decor redus la minim. Abundenta verbelor la imperfect, timpul miscarii care semnifica acea ultima zbatere deznadajduita, inclestarea stingandu-se in sangele amestecat cu vinul pe lespezile de piatra, il consacra pe Negruzzi ca "pictor al unei literaturi".
+\n
+\t\t\t Cinismul, sangele rece, coportamentul fata de Motoc, dezvaluie o fata diabolica a domnitorului.
+\n
+\t\t\t Pentru prima data in literatura romana, Negruzzi surprinde psihologia colectiva. Multimea adunata la poarta curtii domnesti "se intarata de mult in mai mult". Dezorientata, nestiind sa-si exprime doleantele, "prostimea ramase cu gura cascata&#8230; Venise fara sa stie pentru ce au venit si ce vrea. Incepu a se strange in cete, cete si a se intreba unii pe altii ce sa ceara". Apoi, ca intr-un suvoi, toate glasurile "se facura un glas" si el striga: "Capul lui Motoc vrem".
+\n
+\t\t\t Stilul nararii faptelor este obiectiv. Rareori intervine autorul, cu cate un calificativ ("marsavul", "curtezan", "ticalosul"). Predomina naratiunea si dialogul pe fondul realist al actiunii. Prin reconstituirea istorica, prezentarea unui erou de exceptie, utilizarea antitezei, nuvela apartine romantismului. Insa obiectivitatea stilului, si sobrietatea lui, concizia, sunt trasaturi clasiciste ale nuvelei. Limbajul, cu elemente de factura populara, este expresiv (" a sugui", "gloata", "norod", "sa faca din tantar armasar"). Doar in naratiunea si comentariul autorului pot fi intalnite neologisme. Ridicandu-se peste stilul cronicaresc, Negruzzi retine doar atmosfera scrisului arhaic prin topica frazei ce se supune, uneori, canoanelor textului initial.
+\n
+\t\t\t Lapusneanul nu este un model, ci un tip de domnitor crud, ce devine un simbol al tiraniei.
+\n
+\t\t\t Sotia sa, Doamna Ruxandra ocupa un rol minor. Prin firea ei slaba, firava, lipsita de hotarare si personalitate, inclinata sa asculte pe altii, miloasa, ea este totusi fiica, sora si sotie de domn. Doamna Ruxandra este un instrument, atat al sotului, cat si al lui Spancioc, care se foloseste de slabiciunea ei temperamentala in otrvirea Lapusneanului.
+\n
+\t\t\t Vornicul Motoc e tipul intrigantului politic, inteligent si abil, care vinde domn dupa domn, cu o slugarnicie ce-l dezgusta si pe Lapusneanu. Cu o ura si un dispret total fata de popor, el este un personaj mult mai malefic decat domnitorul.
+\n
+\t\t\t Cuviosul Teofan indeamna cu amabilitate pe Doamna Ruxandra sa-si ucida sotul, lasand in seama lui Dumnezeu hotararea pe care aceasta o va lua, dar se pregateste in acelasi timp, pentru instalarea noului domn.
+\n
+\t\t\t Eroii, incepand cu Alexandru si terminand cu gingasa Doamna Ruxandra sunt victime si calai in acelasi timp.
+\n
+\t\t\t George Calinescu, referindu-se la valoarea operei, afirma: "ar fi devenit o scriere celebra ca si Hamlet daca literatura romana ar fi avut in ajutor prestigiul unei limbi universale".
+    </string>
+
+</resources>
