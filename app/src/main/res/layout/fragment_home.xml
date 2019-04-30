@@ -21,14 +21,15 @@
             android:src="@mipmap/logo_big"
             android:layout_gravity="center_horizontal" />
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/home"
-            android:textSize="20sp"
-            android:paddingBottom="70dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            />
+        android:id="@+id/links"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:textSize="20sp"
+        android:paddingBottom="70dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        />
     </LinearLayout>
     </ScrollView>
 
