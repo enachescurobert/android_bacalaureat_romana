@@ -4,7 +4,9 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.TextPaint;
@@ -24,6 +26,8 @@ public class HomeFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_home, container, false);
+
+
 
         //Change the text of the @links element
         TextView textView = (TextView) view.findViewById(R.id.links);
@@ -56,7 +60,14 @@ public class HomeFragment extends Fragment {
         ClickableSpan clickableSpan1 = new ClickableSpan() {
             @Override
             public void onClick(View widget) {
-                Toast.makeText(getActivity(), "Alexandru Lapusneanu", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(), "Alexandru Lapusneanu", Toast.LENGTH_SHORT).show();
+                Fragment lapusneanuFragment = new LapusneanuFragment();
+                FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                transaction.replace(R.id.fragment_container, lapusneanuFragment);
+                transaction.addToBackStack(null);
+                transaction.commit();
+
+
             }
 
             @Override
@@ -72,7 +83,14 @@ public class HomeFragment extends Fragment {
         ClickableSpan clickableSpan2 = new ClickableSpan() {
             @Override
             public void onClick(View widget) {
-                Toast.makeText(getActivity(), "Baltagul", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(), "Baltagul", Toast.LENGTH_SHORT).show();
+                Fragment baltagulFragment = new BaltagulFragment();
+                FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                transaction.replace(R.id.fragment_container, baltagulFragment);
+                transaction.addToBackStack(null);
+                transaction.commit();
+
+
             }
 
             @Override
@@ -88,7 +106,13 @@ public class HomeFragment extends Fragment {
         ClickableSpan clickableSpan3 = new ClickableSpan() {
             @Override
             public void onClick(View widget) {
-                Toast.makeText(getActivity(), "Enigma Otiliei", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(), "Enigma Otiliei", Toast.LENGTH_SHORT).show();
+                Fragment enigmaOtilieiFragment = new EnigmaOtilieiFragment();
+                FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                transaction.replace(R.id.fragment_container, enigmaOtilieiFragment);
+                transaction.addToBackStack(null);
+                transaction.commit();
+
             }
 
             @Override
@@ -104,7 +128,13 @@ public class HomeFragment extends Fragment {
         ClickableSpan clickableSpan4 = new ClickableSpan() {
             @Override
             public void onClick(View widget) {
-                Toast.makeText(getActivity(), "Harap Alb", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(), "Harap Alb", Toast.LENGTH_SHORT).show();
+                Fragment harapAlbFragment = new HarapAlbFragment();
+                FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                transaction.replace(R.id.fragment_container, harapAlbFragment);
+                transaction.addToBackStack(null);
+                transaction.commit();
+
             }
 
             @Override
@@ -120,7 +150,13 @@ public class HomeFragment extends Fragment {
         ClickableSpan clickableSpan5 = new ClickableSpan() {
             @Override
             public void onClick(View widget) {
-                Toast.makeText(getActivity(), "Ion", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(), "Ion", Toast.LENGTH_SHORT).show();
+                Fragment ionFragment = new IonFragment();
+                FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                transaction.replace(R.id.fragment_container, ionFragment);
+                transaction.addToBackStack(null);
+                transaction.commit();
+
             }
 
             @Override
@@ -136,7 +172,13 @@ public class HomeFragment extends Fragment {
         ClickableSpan clickableSpan6 = new ClickableSpan() {
             @Override
             public void onClick(View widget) {
-                Toast.makeText(getActivity(), "Moara cu Noroc", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(), "Moara cu Noroc", Toast.LENGTH_SHORT).show();
+                Fragment moaraFragment = new MoaraFragment();
+                FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                transaction.replace(R.id.fragment_container, moaraFragment);
+                transaction.addToBackStack(null);
+                transaction.commit();
+
             }
 
             @Override
@@ -152,7 +194,13 @@ public class HomeFragment extends Fragment {
         ClickableSpan clickableSpan7 = new ClickableSpan() {
             @Override
             public void onClick(View widget) {
-                Toast.makeText(getActivity(), "La Tiganci", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(), "La Tiganci", Toast.LENGTH_SHORT).show();
+                Fragment tiganciFragment = new TiganciFragment();
+                FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                transaction.replace(R.id.fragment_container, tiganciFragment);
+                transaction.addToBackStack(null);
+                transaction.commit();
+
             }
 
             @Override
@@ -168,7 +216,13 @@ public class HomeFragment extends Fragment {
         ClickableSpan clickableSpan8 = new ClickableSpan() {
             @Override
             public void onClick(View widget) {
-                Toast.makeText(getActivity(), "Ultima Noapte De Dragoste, Intaia Noapte De Razboi", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(), "Ultima Noapte De Dragoste, Intaia Noapte De Razboi", Toast.LENGTH_SHORT).show();
+                Fragment ultimaNoapteFragment = new UltimaNoapteFragment();
+                FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                transaction.replace(R.id.fragment_container, ultimaNoapteFragment);
+                transaction.addToBackStack(null);
+                transaction.commit();
+
             }
 
             @Override

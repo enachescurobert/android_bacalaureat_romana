@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
+        navigationView.setCheckedItem(R.id.nav_home);
 
     }
 
@@ -130,7 +131,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void messageTowardsTheAdmin(){
-        String[] mailOfAdmins ={"enachescurobert@gmail.com"};
+        String[] mailOfAdmins ={"enachescurobert@gmail.com", "radualexandra268@yahoo.com"};
         Intent shareIntent = new Intent();
         shareIntent.setAction(Intent.ACTION_SEND);
         shareIntent.putExtra(Intent.EXTRA_EMAIL, mailOfAdmins);

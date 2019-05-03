@@ -3,6 +3,7 @@ package com.example.bacalaureat;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +13,14 @@ public class TiganciFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-            return inflater.inflate(R.layout.fragment_tiganci, container, false);
-                }
+            //return inflater.inflate(R.layout.fragment_tiganci, container, false);
+
+        View view = inflater.inflate(R.layout.fragment_tiganci, container, false);
+
+        //Menu selected
+        NavigationView navigationView = (NavigationView) getActivity().findViewById(R.id.nav_view);
+        navigationView.setCheckedItem(R.id.la_tiganci);
+
+        return view;
+    }
 }
