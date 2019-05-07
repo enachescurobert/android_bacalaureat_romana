@@ -1,4 +1,4 @@
-package com.example.bacalaureat;
+package com.enachescurobert.bacalaureat;
 
 import android.graphics.Color;
 import android.os.Bundle;

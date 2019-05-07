@@ -1,4 +1,4 @@
-package com.example.bacalaureat;
+package com.enachescurobert.bacalaureat;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;

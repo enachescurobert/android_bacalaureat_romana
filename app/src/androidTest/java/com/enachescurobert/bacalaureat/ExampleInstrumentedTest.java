@@ -1,4 +1,4 @@
-package com.example.bacalaureat;
+package com.enachescurobert.bacalaureat;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.bacalaureat", appContext.getPackageName());
+        assertEquals("com.enachescurobert.bacalaureat", appContext.getPackageName());
     }
 }

@@ -18,7 +18,6 @@
             <TextView
                 style="@style/TitleOfTheText"
                 android:text="Ultima Noapte De Dragoste, Intaia Noapte De Razboi"
-                android:textSize="33sp"
                 />
 
             <TextView

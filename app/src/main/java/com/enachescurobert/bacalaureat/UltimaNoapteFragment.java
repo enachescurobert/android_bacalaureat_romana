@@ -1,4 +1,4 @@
-package com.example.bacalaureat;
+package com.enachescurobert.bacalaureat;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -9,17 +9,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class MoaraFragment extends Fragment {
+public class UltimaNoapteFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-            //return inflater.inflate(R.layout.fragment_moara, container, false);
+            //return inflater.inflate(R.layout.fragment_ultima_noapte, container, false);
 
-        View view = inflater.inflate(R.layout.fragment_moara, container, false);
+        View view = inflater.inflate(R.layout.fragment_ultima_noapte, container, false);
 
         //Menu selected
         NavigationView navigationView = (NavigationView) getActivity().findViewById(R.id.nav_view);
-        navigationView.setCheckedItem(R.id.moara_cu_noroc);
+        navigationView.setCheckedItem(R.id.ultima_noapte);
 
         return view;
     }
